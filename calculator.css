@@ -1,0 +1,145 @@
+body{
+    background-color: #9E1028;
+}
+    div.whitebox{
+        margin: 30px;
+        border-top-style:solid;
+        border-top-color:#3d3935;
+        border-top-width:30px;
+        border-bottom-style:solid;
+        border-bottom-color:#3d3935;
+        border-bottom-width:40px;
+        background-color: #FFFFFF;
+        position: relative;
+        top:-30px;
+    }
+    p.first{
+        position: relative;
+        left:20px;
+        font-family: "Arial",Arial,sans-serif;
+        font-size: 30px;
+        font-weight: normal;   
+    }
+
+    div.greybox{
+        width: 900px;
+        height: 700px;
+        background-color: #e9eff1;
+        position:relative;
+        right:-20px;
+    }
+
+    p.second{
+        position: relative;
+        left:10px;
+        font-family: Georgia, serif;
+        color: #B3122D;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+
+    p.third{
+        position: relative;
+        left:10px;
+        font-size: 15px;
+        font-weight: normal; 
+    }
+
+    p.fourth{
+        position: relative;
+        left:10px;
+        font-family: Georgia, serif;
+        color: #B3122D;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+    button.btn1{
+        background-color:#B3122D;
+        width: 100px;
+        height:35px;
+        position:relative;
+        left:565px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#FFFFFF;
+        font-size: 15px;
+        bottom: -8px;
+        border-radius: 4px;
+    }
+
+    button.btn2{
+        background-color:#B3122D;
+        width: 100px;
+        height:35px;
+        position:relative;
+        left:570px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#FFFFFF;
+        font-size: 15px;
+        bottom: -8px;
+        border-radius: 4px;
+    }
+
+    button.btn3{
+        background-color:#B3122D;
+        width: 100px;
+        height:35px;
+        position:relative;
+        left:560px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#FFFFFF;
+        font-size: 15px;
+        bottom: -8px;
+        border-radius: 4px;
+    }
+
+    table{
+        font-family: Georgia, serif;
+        border-collapse: collapse;
+        width:98%;
+        position:relative;
+        left:10px;
+    }
+
+    tr:nth-child(1){
+        background-color:#DBDCDD;
+    }
+
+    th,td{
+        border: 1px solid #cfcfcf;
+        text-align:left;
+        padding:6px;
+    }
+
+    input{
+    width:80px;
+    height: 25px;
+    margin: 4px 0;
+    }
+
+    p.percent1{
+        position:relative;
+    }
+
+    p.percent2{
+        position:relative;
+    }
+
+    p.percent3{
+        position:relative;
+    }
+
+    p.percent4{
+        position:relative;
+    }
+
+    p.fifth{
+        position:relative;
+        right:-20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p.sixth{
+        position:relative;
+        right:-20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }

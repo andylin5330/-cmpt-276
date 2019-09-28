@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>Coursys - Formula Tester</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "calculator.css" />
+ </head>
+    <body>
+    <script src="calculator.js"></script>
+    <div class="whitebox">
+    <br>
+    <p class="first">Grade Calculator</p>
+
+    <div class="greybox">
+        <br>
+        <p class="second">Activities</p>
+        <p class="third">Give grades to the numberic activities</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Short Name</th>
+            <th>Weight</th>
+            <th>Grade</th>
+            <th>Percent</th>
+        </tr>
+        <tr>
+            <td>Activity 1</td>
+            <td>A1</td>
+            <td><input type="weight" id="weight1"></td>
+            <td><input type="grade" id="grade11" onkeyup="percentage()">/<br><input type="grade" id="grade12" onkeyup="percentage()"></td>
+            <td><p id="percent1"></p></td>
+        </tr>
+        <tr>
+            <td>Activity 2</td>
+            <td>A2</td>
+            <td><input type="weight" id="weight2"></td>
+            <td><input type="grade" id="grade21" onkeyup="percentage()">/<br><input type="grade" id="grade22" onkeyup="percentage()"></td>
+            <td><p id="percent2"></p></td>
+        </tr>
+        <tr>
+            <td>Activity 3</td>
+            <td>A3</td>
+            <td><input type="weight" id="weight3"></td>
+            <td><input type="grade" id="grade31" onkeyup="percentage()">/<br><input type="grade" id="grade32" onkeyup="percentage()"></td>
+            <td><p id="percent3"></p></td>
+        </tr>
+        <tr>
+            <td>Activity 4</td>
+            <td>A4</td>
+            <td><input type="weight" id="weight4"></td>
+            <td><input type="grade" id="grade41" onkeyup="percentage()">/<br><input type="grade" id="grade42" onkeyup="percentage()"></td>
+            <td><p id="percent4"></p></td>
+        </tr>
+    </table>
+    <p class="fourth">Result</p>
+    <p class="fifth" id="rmean"></p>
+    <p class="sixth" id="rweight"></p>
+    <button class="btn3" onclick="calClear()">CLEAR</button>
+    <button class="btn1" onclick="calWeight()">WEIGHTED</button>
+    <button class="btn2" onclick="calMean()">MEAN</button>
+    </div>
+    <br>
+    </div>
+    </body>
+
+    
+</html>
