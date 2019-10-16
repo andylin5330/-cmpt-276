@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tokimon</title>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "stylesheets/Tokimon.css" />
+</head>
+<div id="formDiv">
+        <form id="form" action="/submit" method="post">
+            <div id="formTitle"><h1> Add Tokimon </h1></div>
+            <div id="formDiv">
+                <div class="inputsDiv">
+                <label for="name">Tokimon Name:</label>
+                <input class="inputs" id="inputName" type="text" name="name" placeholder="Toki" required><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="height">Tokimon Height (in cm):</label>
+                <input class="inputs" id="inputHeight" type="number" name="height" placeholder=30 pattern="[0-9]" min="1"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="weight">Tokimon Weight (in kg):</label>
+                <input class="inputs" id="inputWeight" type="number" name="weight" placeholder=50 pattern="[0-9]" min="1"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="flying">Flying Power:</label>
+                <input class="inputs" id="inputFlying" type="number" name="flying" placeholder=50 pattern="[0-9]" min="0" max="100"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="fighting">Fighting Power:</label>
+                <input class="inputs" id="inputFighting" type="number" name="fighting" placeholder=50 pattern="[0-9]" min="0" max="100"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="fire"> Fire Power:</label>
+                <input class="inputs" id="inputFire" type="number" name="fire" placeholder=50 pattern="[0-9]" min="0" max="100"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="water">Water Power:</label>
+                <input class="inputs" id="inputWater" type="number" name="water" placeholder=50 pattern="[0-9]" min="0" max="100"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="electric">Electric Power:</label>
+                <input class="inputs" id="inputElectric" type="number" name="electric" placeholder=50 pattern="[0-9]" min="0" max="100"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="ice">Ice Power:</label>
+                <input class="inputs" id="inputIce" type="number" name="ice" placeholder=50 pattern="[0-9]" min="0" max="100"><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="total">Total Power:</label>
+                <input class="inputs" id="inputTotal" type="number" name="total" placeholder=50 pattern="[0-9]" min="0" max="600" readonly><br>
+                </div>
+
+                <div class="inputsDiv">
+                <label for="trainerName">Trainer Name:</label>
+                <input class="inputs" id="inputTrainerName" type="text" name="trainerName" placeholder="Toki Trainer" required><br>
+                </div>
+
+                <br>
+                <div id="buttonArea">
+                    <button class="submitButtons" id="resetButton" type="reset"> Reset </button>
+                    <button class="submitButtons" id="randomizeButton" type="button"> Randomize! </button>
+                    <button class="submitButtons" id="submitButton" type="submit"> Submit </button>
+                </div>
+            </div>
+        </form>
+
+</body>

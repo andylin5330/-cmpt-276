@@ -1,0 +1,71 @@
+body.cover{
+    background-image: url("ff9c8abdbd1219a6d1e6cb49fb79916b.jpg");
+    background-color: #b3f5f6;
+    position:relative;
+    position:absolute;
+    left:580px;  
+    bottom:350px;
+    
+}
+
+h1.bighead{
+    font-style: oblique;
+    position: relative;
+    font-size: 70px;
+
+}
+
+div.toki{
+    margin: 30px;
+    background-color: #FFFFFF;
+    position: relative;
+    top:-30px;
+}
+
+table{
+    font-family: Georgia, serif;
+    border-collapse: collapse;
+    width:98%;
+    position:relative;
+    left:10px;
+}
+
+button.official{
+  background-color: #817788;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+
+button.add{
+    background-color: #817788;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+}
+
+button.delete{
+    background-color: #817788;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+}
+
+p.p1{
+    font-size: px;
+    text-decoration-line: none;
+}
+
+
